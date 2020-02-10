@@ -20,7 +20,7 @@ replacement focused on pure chording. Take a look at the configuration in keyboa
 are stored over in dicts/
 
 ## Installation
-You will need to add the following bits to your rules.mk, refer to keyboards/ginny for a working example
+You will need to add the following bits to your rules.mk, refer to [keyboards/gergoplex](https://github.com/germ/qmk_firmware/blob/ginny-improv/keyboards/gergoplex/keymaps/default/rules.mk) for a working example
 ```VPATH               +=  keyboards/gboards/```
 
 And if you're using the chording engine, this as well.
