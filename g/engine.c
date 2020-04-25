@@ -427,8 +427,10 @@ void CLICK_MOUSE(uint8_t kc) {
 }
 void SWITCH_LAYER(int layer) {
 #ifndef NO_ACTION_LAYER
-  if (keymapsCount >= layer) 
+  if (keymapsCount >= layer) {
+    layer_clear();
     layer_on(layer);
+  }
 #endif
 }
 uint8_t bitpop_v(C_SIZE val) {

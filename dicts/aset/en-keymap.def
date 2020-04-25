@@ -35,7 +35,7 @@ PRES(AI|AO,                                                                     
 PRES(AT|AO,                                                                                          KC_G)
 KEYS(AI|AP,                             cmb_68737f3c98f133fe,                  {KC_LSFT, KC_1, COMBO_END})
 PRES(AS|AT,                                                                                          KC_C)
-PRES(AA|AP,                                                                                       KC_QUOT)
+PRES(AA|AP,                                                                                       KC_SLSH)
 SUBS(AR|AI|AO|AP,                       str_E21E9A5405E9A529,                                      "pool ")
 SUBS(AR|AN|AO|AP,                       str_D443D6F10491FB2B,                                        "up ")
 SUBS(AR|AA|AS|AE,                       str_C8F40BD7102B7E24,                                        "we ")
