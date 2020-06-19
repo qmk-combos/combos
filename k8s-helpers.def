@@ -1,0 +1,10 @@
+// Helpers for Kubernetes
+
+SUBS(kyGetDepl,    "kubectl get deployments ", KC_K, KC_Y)
+SUBS(kuGetVer,     "kubectl version ", KC_K, KC_U)
+SUBS(kiExec,       "kubectl exec -it ", KC_K, KC_I)
+SUBS(koDesc,       "kubectl describe ", KC_K, KC_O)
+SUBS(kpGetPods,    "kubectl get pods ", KC_K, KC_P)
+SUBS(knGetNodes,   "kubectl get nodes -o wide ", KC_K, KC_N)
+SUBS(kmLogs,       "kubectl logs ", KC_K, KC_M)
+SUBS(kConfig,      "kubectl logs ", KC_K, KC_COMM)
