@@ -26,7 +26,7 @@ You will need to add the following bits to your rules.mk, refer to [keyboards/ge
 And if you're using the chording engine, this as well.
 ```SRC                 +=  g/engine.c ```
 
-For combos, add ```#include "g/keymap_combos.h"``` to keymap.c to compile your combos.def into your keymap
+For combos, add ```#include "g/keymap_combo.h"``` to keymap.c to compile your combos.def into your keymap
 
 For the chording engine, add ```#include "g/keymap_engine.h"``` to keymap.c compile your dicts.def into your keymap. If you
 don't have a config_engine.h file for your keyboard, you will need to create it. (Once again, look at keyboards/ginny/
